@@ -37,6 +37,12 @@ Term frequency-inverse document frequency is a text vectorizer that transforms t
 The term frequency is the number of occurrences of a specific term in a document. Term frequency indicates how important a specific term in a document. Term frequency represents every text from the data as a matrix whose rows are the number of documents and columns are the number of distinct terms throughout all documents.
 
 Basically this text vectorizer gives weight to the tokens having repeated less than the ones having more frequency.
+```python
+from sklearn.feature_extraction.text import TfidfVectorizer as tfidfv
+
+vectoriser = tfidfv(ngram_range=(1,2), max_features=500000)
+vectoriser.fit(tX)
+```
 
 
 ## Creating and Evaluating models
