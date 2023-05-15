@@ -62,3 +62,19 @@ We can see that Logistic Regression model performed better with an accuracy of n
 
 ML models can be saved and used by saving them as a pickle file. Later on when required we can load the models and predict.
 I have demonstrated this using another file 'using_model'.
+
+```
+from ipynb.fs.full.twitter_sentiment_analysis import load_models, predict
+
+text = ['why is he always doing the same thing?', 'i have never seen anyone run that fast']
+v, lr = load_models()
+
+df = predict(v, lr, text)
+df.head()
+```
+
+Output:
+
+text	sentiment
+0	why is he always doing the same thing?	Negative
+1	i have never seen anyone run that fast	Positive
