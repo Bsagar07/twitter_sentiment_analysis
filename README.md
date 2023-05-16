@@ -1,5 +1,5 @@
 # twitter_sentiment_analysis
-Sentiment analysis on tweets using ML algorithms - Bernoulli Naive bayes, LinearSVC and Logistic Regression.
+Sentiment analysis on tweets using NLTK and ML classification models - Bernoulli Naive bayes, LinearSVC and Logistic Regression.
 
 
 ## Introduction
