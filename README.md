@@ -77,6 +77,6 @@ Output:
 
 text	sentiment
 
-0	why is he always doing the same thing?	Negative
+why is he always doing the same thing?	Negative
 
-1	i have never seen anyone run that fast	Positive
+i have never seen anyone run that fast	Positive
